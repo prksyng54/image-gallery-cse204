@@ -247,6 +247,8 @@
             overlay.classList.remove('active', 'playing');
             clearInterval(playInterval);
             playInterval = null;
+            playButton.style.display = 'block'; 
+            pauseButton.style.display = 'none';  
         }
 
         function next() {
